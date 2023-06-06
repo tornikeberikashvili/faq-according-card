@@ -4,4 +4,97 @@ html {
 
 body {
   font-family: "Kumbh Sans", sans-serif;
+  background-color: #b068e9;
+}
+
+.pattern {
+  background-image: url(images/bg-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  width: 24rem;
+  height: 14rem;
+  position: absolute;
+  left: 4rem;
+  top: -2rem;
+}
+
+.women {
+  background-image: url(images/illustration-woman-online-mobile.svg);
+  background-repeat: no-repeat;
+  width: 23rem;
+  height: 14rem;
+  position: absolute;
+  top: -8.5rem;
+  left: 7rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15rem;
+}
+
+.white {
+  width: 32.7rem;
+  border-radius: 23px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: #1e1f36;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 11rem;
+}
+
+.questions-div {
+  display: flex;
+  gap: 3.5rem;
+  height: 3rem;
+}
+
+.question-h2 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  color: #4b4c5f;
+}
+
+.icon-arrow {
+  width: 0.8rem;
+  height: 0.4rem;
+}
+
+.answers {
+  width: 48ch;
+  padding: 0.7rem;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.color {
+  color: black;
+}
+
+.answer-p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #787887;
+}
+
+.stick {
+  border-bottom: 1px solid #e8e8ea;
 }
